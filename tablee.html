@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Table</title>
+    <style>
+        fieldset{
+            width: 500px;
+            margin: 20px auto;
+            font-family: fira code;
+        }
+        legend{
+            text-align: center;
+            font-weight: bold;
+        }
+        table{
+            width: 100%;
+        }
+        th, td{
+            padding: 5px;
+        }
+        .tengah, .tgh{
+            text-align: center;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+        <legend>Belajar Table</legend>
+        <table style="border: 1px solid black;">
+            <colgroup>
+                <col span="3" style="background-color: yellow;">
+                <col style="background-color: aqua;">
+            </colgroup>
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Nama Depan</th>
+                    <th>Nama Belakang</th>
+                    <th class="tengah">Nilai</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                </tr>
+                <tr>
+                    <td class="tengah">1</td>
+                    <td>Aldirisky</td>
+                    <td>Pratama</td>
+                    <td class="tengah">100</td>
+                </tr>
+                <tr>
+                    <td class="tengah">2</td>
+                    <td>Rindu Indah</td>
+                    <td>Villa Sari</td>
+                    <td class="tengah">95</td>
+                </tr>
+                <tr>
+                    <td class="tengah">3</td>
+                    <td>Khumairah</td>
+                    <td>Ruliani Hasanah</td>
+                    <td class="tengah">90</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td rowspan="2" class="tgh">Nilai</td>
+                    <td colspan="2" class="tgh">Total</td>
+                    <td class="tengah">285</td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="tgh">Rata-Rata Nilai</td>
+                    <td class="tengah">95</td>
+                </tr>
+            </tfoot>
+        </table>
+    </fieldset>
+</body>
+</html>

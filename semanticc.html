@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>semantic</title>
+    <style>
+        header{
+            background-color: gray;
+            padding: 30px;
+            text-align: center;
+            font-size: 35px;
+            color: white;
+        }
+        nav{
+            height: 70px;
+            line-height: 50px;
+            background-color: yellow;
+            text-align: center;
+            margin-top: -20px;
+        }
+        nav ul li{
+            list-style: none;
+            display: inline-block;
+            /* border: 2px solid black; */
+            margin-right: 20px;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        nav ul a{
+            text-decoration: none;
+        }
+        section{
+            background-color: #f1f1f1;
+            margin-top: -20px;
+            padding: 5px;
+        }
+        article{
+            margin-top: 20px;
+        }
+        footer{
+            position: fixed;
+            background-color: grey;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            height: 50px;
+            text-align: center;
+            color: white;
+        }
+        fieldset{
+            height: 20%;
+        }
+        legend{
+            text-align: center;
+            font-weight: bold;
+        }
+        table{
+            margin: auto;
+        }
+        col{
+            background-color: white;
+        }
+        .vuki{
+            background-color: skyblue;
+        }
+        table tr th, table tr td{
+            padding: 10px;
+            border: 2px solid black;
+            border-radius: 5px;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Judul Halaman</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="">Beranda</a></li>
+            <li><a href="">Artikel</a></li>
+            <li><a href="">Kontak Kami</a></li>
+        </ul>
+    </nav>
+    <section>
+        <article>
+            <h1>Belajar HTML</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore numquam sunt facilis repudiandae, laboriosam nihil optio laudantium, eaque dicta aut quos porro distinctio debitis libero corporis assumenda exercitationem sint rem.</p>
+        </article>
+        <article>
+            <h1>Belajar CSS</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, illum quasi eveniet est maxime officia quisquam ullam maiores provident dicta distinctio vitae dignissimos rerum eum qui, consequatur magni nobis dolorem!</p>
+        </article>
+            <fieldset>
+                <legend>INI TABLE TERUPDATE</legend>
+                <table>
+                    <colgroup>
+                        <col span="2">
+                        <col class="vuki">
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th>NO</th>
+                            <th>NAMA</th>
+                            <th>NILAI</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>MUHAMMAD ALDI RIZKY PRATAMA</td>
+                            <td>100</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>RINDU INDAH VILLA SARI</td>
+                            <td>95</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </fieldset>
+    </section>
+    <footer>
+        <p>Powered By Aldirisky Pratama <time datetime="2024">2024</time></p>
+    </footer>
+</body>
+</html>
